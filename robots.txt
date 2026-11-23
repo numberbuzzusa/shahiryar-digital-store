@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://numberbuzzusa.github.io/shahiryar-digital-store/
