@@ -88,6 +88,21 @@ footer{border-top:1px solid var(--line);margin-top:60px;padding:34px 0 44px;back
 .footer-in{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
 footer p{color:var(--ink-3);font-size:13.5px;max-width:520px}
 .wa-float{position:fixed;right:18px;bottom:18px;z-index:60;width:58px;height:58px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 12px 30px rgba(37,211,102,.4);text-decoration:none;font-size:27px}
+
+.sub-headline{font-weight:800;color:var(--blue);letter-spacing:.02em;margin-bottom:8px}
+.subcat{margin-bottom:26px}
+.subcat-head{display:flex;align-items:center;gap:11px;margin-bottom:13px}
+.subcat-icon{font-size:21px;background:var(--surface);border:1px solid var(--line);border-radius:11px;width:42px;height:42px;display:grid;place-items:center}
+.subcat-head h3{font-size:19px;font-weight:800}
+.subcat-count{font-size:12px;font-weight:700;color:var(--emerald);background:var(--emerald-dark);padding:3px 10px;border-radius:999px}
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:12px}
+.tool-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow)}
+.tool-name{font-weight:800;font-size:16px}
+.tool-order{margin-top:auto;text-align:center;background:var(--wa);color:#06281A;font-weight:800;font-size:13.5px;border-radius:10px;padding:9px 10px;text-decoration:none}
+.tool-order:hover{background:#3be07a}
+.custom-box{margin-top:6px;background:linear-gradient(135deg,var(--blue-dark),var(--emerald-dark));border:1px solid var(--blue);border-radius:20px;padding:26px;display:flex;gap:22px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.custom-box h3{font-size:21px;font-weight:900;margin-bottom:7px}
+.custom-box p{color:var(--ink-2);font-size:15px;max-width:640px}
 .owner-card{max-width:760px;margin:34px auto 0;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px 24px;display:flex;gap:20px;align-items:center;text-align:left;box-shadow:var(--shadow)}
 .owner-card img{width:92px;height:92px;border-radius:50%;object-fit:cover;border:2px solid var(--blue);flex:none}
 .owner-card .o-name{font-weight:900;font-size:17px}
@@ -303,62 +318,75 @@ footer p{color:var(--ink-3);font-size:13.5px;max-width:520px}
     <div class="wrap">
       <div class="sec-head">
         <span class="kicker">CATEGORY 4</span>
-        <h2>Premium AI Tools &amp; Subscriptions</h2>
-        <p>The AI tools creators and businesses actually use — video, image, voice and content — as shared or fully private accounts, at a fraction of the official price.</p>
+        <h2>30+ Premium Tools &amp; Digital Subscriptions — Sab Se Kam Price Mein</h2>
+        <p class="sub-headline">Instant Delivery &nbsp;|&nbsp; Trusted Service &nbsp;|&nbsp; Custom Subscription Bhi Mil Jayegi</p>
+        <p>Har tool par click karein aur seedha WhatsApp par order karein — cheap rate, instant delivery. Shared aur private dono options available hain (tool ke hisaab se).</p>
       </div>
-      <div class="grid-2">
-        <article class="card">
-          <span class="tag">VIDEO AI</span>
-          <h3>Video AI Tools</h3>
-          <p class="desc">AI video generation and editing tools for Reels, Shorts and ads.</p>
-          <ul>
-            <li>Shared or private account options</li>
-            <li>Monthly plans available</li>
-            <li>Setup guidance included</li>
-            <li>Replacement if access breaks within the plan</li>
-          </ul>
-          <p class="price-note">Price: cheap rate — confirmed on WhatsApp before payment.</p>
-          <button class="btn btn-wa order-pick" data-cat="3" data-pkg="0">💬 Order This Package</button>
-        </article>
-        <article class="card">
-          <span class="tag">IMAGE AI</span>
-          <h3>Image AI Tools</h3>
-          <p class="desc">AI image generation and design tools for posts, thumbnails and product shots.</p>
-          <ul>
-            <li>Shared or private account options</li>
-            <li>Monthly plans available</li>
-            <li>Setup guidance included</li>
-            <li>Replacement if access breaks within the plan</li>
-          </ul>
-          <p class="price-note">Price: cheap rate — confirmed on WhatsApp before payment.</p>
-          <button class="btn btn-wa order-pick" data-cat="3" data-pkg="1">💬 Order This Package</button>
-        </article>
-        <article class="card">
-          <span class="tag">VOICE AI</span>
-          <h3>Voice AI Tools</h3>
-          <p class="desc">AI voiceover and text-to-speech tools for videos, ads and audio content.</p>
-          <ul>
-            <li>Shared or private account options</li>
-            <li>Monthly plans available</li>
-            <li>Setup guidance included</li>
-            <li>Replacement if access breaks within the plan</li>
-          </ul>
-          <p class="price-note">Price: cheap rate — confirmed on WhatsApp before payment.</p>
-          <button class="btn btn-wa order-pick" data-cat="3" data-pkg="2">💬 Order This Package</button>
-        </article>
-        <article class="card">
-          <span class="tag">CONTENT AI</span>
-          <h3>Content AI Tools</h3>
-          <p class="desc">AI writing and content tools for captions, scripts, blogs and marketing copy.</p>
-          <ul>
-            <li>Shared or private account options</li>
-            <li>Monthly plans available</li>
-            <li>Setup guidance included</li>
-            <li>Replacement if access breaks within the plan</li>
-          </ul>
-          <p class="price-note">Price: cheap rate — confirmed on WhatsApp before payment.</p>
-          <button class="btn btn-wa order-pick" data-cat="3" data-pkg="3">💬 Order This Package</button>
-        </article>
+      <div class="subcat">
+        <div class="subcat-head"><span class="subcat-icon">🤖</span><h3>AI Tools</h3><span class="subcat-count">11 tools</span></div>
+        <div class="tools-grid">
+        <div class="tool-card"><div class="tool-name">ChatGPT Plus</div><a class="tool-order" href="#order" data-tool="ChatGPT Plus" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Gemini Pro (18M)</div><a class="tool-order" href="#order" data-tool="Gemini Pro (18M)" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Kling AI</div><a class="tool-order" href="#order" data-tool="Kling AI" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Cursor</div><a class="tool-order" href="#order" data-tool="Cursor" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">ElevenLabs</div><a class="tool-order" href="#order" data-tool="ElevenLabs" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">QuillBot</div><a class="tool-order" href="#order" data-tool="QuillBot" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Higgsfield</div><a class="tool-order" href="#order" data-tool="Higgsfield" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Lovable</div><a class="tool-order" href="#order" data-tool="Lovable" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">HeyGen</div><a class="tool-order" href="#order" data-tool="HeyGen" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Udemy</div><a class="tool-order" href="#order" data-tool="Udemy" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Dream Face</div><a class="tool-order" href="#order" data-tool="Dream Face" data-subcat="AI Tools">💬 Order on WhatsApp</a></div>
+        </div>
+      </div>
+      <div class="subcat">
+        <div class="subcat-head"><span class="subcat-icon">🛡️</span><h3>VPN Services</h3><span class="subcat-count">5 tools</span></div>
+        <div class="tools-grid">
+        <div class="tool-card"><div class="tool-name">NordVPN</div><a class="tool-order" href="#order" data-tool="NordVPN" data-subcat="VPN Services">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Surfshark</div><a class="tool-order" href="#order" data-tool="Surfshark" data-subcat="VPN Services">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">ExpressVPN</div><a class="tool-order" href="#order" data-tool="ExpressVPN" data-subcat="VPN Services">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Proton VPN</div><a class="tool-order" href="#order" data-tool="Proton VPN" data-subcat="VPN Services">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">IPVanish</div><a class="tool-order" href="#order" data-tool="IPVanish" data-subcat="VPN Services">💬 Order on WhatsApp</a></div>
+        </div>
+      </div>
+      <div class="subcat">
+        <div class="subcat-head"><span class="subcat-icon">🎨</span><h3>Creative & Video Suites</h3><span class="subcat-count">8 tools</span></div>
+        <div class="tools-grid">
+        <div class="tool-card"><div class="tool-name">Canva Pro</div><a class="tool-order" href="#order" data-tool="Canva Pro" data-subcat="Creative & Video Suites">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Picsart</div><a class="tool-order" href="#order" data-tool="Picsart" data-subcat="Creative & Video Suites">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">CapCut Pro</div><a class="tool-order" href="#order" data-tool="CapCut Pro" data-subcat="Creative & Video Suites">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Envato Elements</div><a class="tool-order" href="#order" data-tool="Envato Elements" data-subcat="Creative & Video Suites">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Adobe Creative Cloud</div><a class="tool-order" href="#order" data-tool="Adobe Creative Cloud" data-subcat="Creative & Video Suites">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Dzine AI</div><a class="tool-order" href="#order" data-tool="Dzine AI" data-subcat="Creative & Video Suites">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">MagicLight AI</div><a class="tool-order" href="#order" data-tool="MagicLight AI" data-subcat="Creative & Video Suites">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Anijam</div><a class="tool-order" href="#order" data-tool="Anijam" data-subcat="Creative & Video Suites">💬 Order on WhatsApp</a></div>
+        </div>
+      </div>
+      <div class="subcat">
+        <div class="subcat-head"><span class="subcat-icon">🎬</span><h3>Streaming & Entertainment</h3><span class="subcat-count">5 tools</span></div>
+        <div class="tools-grid">
+        <div class="tool-card"><div class="tool-name">Netflix</div><a class="tool-order" href="#order" data-tool="Netflix" data-subcat="Streaming & Entertainment">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Amazon Prime Video</div><a class="tool-order" href="#order" data-tool="Amazon Prime Video" data-subcat="Streaming & Entertainment">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Disney+</div><a class="tool-order" href="#order" data-tool="Disney+" data-subcat="Streaming & Entertainment">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Spotify Premium</div><a class="tool-order" href="#order" data-tool="Spotify Premium" data-subcat="Streaming & Entertainment">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">YouTube Premium</div><a class="tool-order" href="#order" data-tool="YouTube Premium" data-subcat="Streaming & Entertainment">💬 Order on WhatsApp</a></div>
+        </div>
+      </div>
+      <div class="subcat">
+        <div class="subcat-head"><span class="subcat-icon">💼</span><h3>Business & Dev Tools</h3><span class="subcat-count">4 tools</span></div>
+        <div class="tools-grid">
+        <div class="tool-card"><div class="tool-name">SEMrush</div><a class="tool-order" href="#order" data-tool="SEMrush" data-subcat="Business & Dev Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Hostinger</div><a class="tool-order" href="#order" data-tool="Hostinger" data-subcat="Business & Dev Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Microsoft 365 Admin</div><a class="tool-order" href="#order" data-tool="Microsoft 365 Admin" data-subcat="Business & Dev Tools">💬 Order on WhatsApp</a></div>
+        <div class="tool-card"><div class="tool-name">Veo 3 Extension</div><a class="tool-order" href="#order" data-tool="Veo 3 Extension" data-subcat="Business & Dev Tools">💬 Order on WhatsApp</a></div>
+        </div>
+      </div>
+      <div class="custom-box">
+        <div>
+          <span class="tag green">CUSTOM ORDER</span>
+          <h3>Custom Subscription Bhi Mil Jayegi</h3>
+          <p>Jo tool chahiye uska naam ya screenshot WhatsApp par bhejo — hum de denge! List mein nahi hai? Koi baat nahi — naam ya screenshot bhejein, hum source karke cheap rate par de denge.</p>
+        </div>
+        <a class="btn btn-wa" id="custom-tool-btn" href="#order" style="flex:none">💬 Request Custom Tool on WhatsApp</a>
       </div>
     </div>
   </section>
@@ -491,7 +519,7 @@ var CATALOG = [
   { name: "Facebook Pages & Monetization Assets", packages: ["Fresh & Aged Facebook Pages", "Criteria Complete Pages (In-Stream Ads / Reels / Bonus ready)", "Fully Monetized & Payout-Approved Pages"] },
   { name: "All-Country Facebook IDs & Profiles", packages: ["Aged Facebook IDs (USA / UK / Canada / Europe / Worldwide)", "Marketplace / Ads / BM-Ready Verified Profiles"] },
   { name: "Residential & Mobile Proxies (All Countries)", packages: ["Daily Plan", "Weekly Plan", "Monthly Plan"] },
-  { name: "Premium AI Tools & Subscriptions", packages: ["Video AI Tools (Shared / Private)", "Image AI Tools (Shared / Private)", "Voice AI Tools (Shared / Private)", "Content AI Tools (Shared / Private)"] },
+  { name: "Premium Tools & Subscriptions (30+)", packages: ["AI Tools (ChatGPT Plus, Gemini Pro, Kling AI & more)", "VPN Services (NordVPN, Surfshark, ExpressVPN & more)", "Creative & Video Suites (Canva Pro, CapCut Pro, Adobe CC & more)", "Streaming & Entertainment (Netflix, Spotify, YouTube Premium & more)", "Business & Dev Tools (SEMrush, Hostinger & more)", "Custom Tool Request (any tool — name or screenshot)"] },
   { name: "Page Growth & Custom Market Services", packages: ["Real Followers, Watch-Time & Views", "Custom On-Demand Sourcing"] }
 ];
 var catSel = document.getElementById('f-cat'), pkgSel = document.getElementById('f-pkg'),
@@ -538,6 +566,17 @@ document.querySelectorAll('.order-pick').forEach(function(btn){
   });
 });
 fillPackages();
+document.querySelectorAll('.tool-order').forEach(function(a){
+  var msg = "Hello Shahiryar Digital Store! I want to order: " + a.getAttribute('data-tool') + " (" + a.getAttribute('data-subcat') + "). Please share the cheap price, plan options (shared/private) and delivery time.";
+  a.href = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(msg);
+  a.target = "_blank"; a.rel = "noopener";
+});
+var customBtn = document.getElementById('custom-tool-btn');
+if (customBtn) {
+  var cmsg = "Hello Shahiryar Digital Store! Mujhe ek custom tool / subscription chahiye. Main tool ka naam ya screenshot bhej raha hu — please is ka cheap rate aur delivery time bata dein.";
+  customBtn.href = "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(cmsg);
+  customBtn.target = "_blank"; customBtn.rel = "noopener";
+}
 </script>
 </body>
 </html>
